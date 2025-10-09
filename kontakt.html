@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzazone - Authentic and classic italian pizza</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <meta name = "description" content = "Pizzazone - Äkta klassisk italiensk pizza">
+</head>
+
+<body>
+    <header class = "site-header">
+        <a href = "index.html" class = "header">
+        <img src = "images/pizza-logo.jpg" alt = "logo to website" width = "200" height = "120">
+        </a>
+        <nav class = "navigation-menu" aria-label = "Main menu">
+            <ul>
+                <li><a href = "index.html">Start</a></li>
+                <li><a href = "meny.html">Menu</a></li>
+                <li><a href = "om.html">About</a></li>
+                <li><a href = "kontakt.html">Contact</a></li>
+                <li><a href = "integritet.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class = "intro container">
+        <h1>Contact us</h1>
+        <p>You can call us, email or send a message with the form below.</p>
+
+        <form class = "contact-form">
+            <label for = "name">Name:</label>
+            <br>
+            <br>
+            <input type = "text" id="name" name="name" requiered>
+            <br>
+            <br>
+            <label for = "email">Email:</label>
+            <br>
+            <br>
+            <input type = "email" id = "email" name = "email" required>
+            <br>
+            <br>
+            <label for = "message">Message:</label>
+            <br>
+            <br>
+            <textarea id = "message" name = "message" name = "message" rows = "10" cols = "40"></textarea>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox" required> I approve that my information is handled according to the privacy policy.
+            </label>
+            <br>
+            <br>
+            <button type = "submit" class = "btn primary">Send Message</button>
+            <button type = "reset" class = "btn primary">Reset</button>
+        </form>
+    </main>
+    
+    <footer class = "site footer">
+        <p>The Pizzazone email: frde2500@student.miun.se <br> <a href = "integritet">Our integrity policy</a></p>
+    </footer>
+</body>
+</html>

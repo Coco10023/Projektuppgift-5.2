@@ -1,44 +1,50 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzeria Bella Napoli - Äkta klassisk italiensk pizza</title>
+    <title>Pizzazone - Authentic and classic italian pizza</title>
     <link rel = "stylesheet" href = "styles.css">
-    <meta name = "description" content = "Pizzeria Bella Napoli - Äkta klassisk italiensk pizza">
+    <meta name = "description" content = "Pizzazone - Äkta klassisk italiensk pizza">
 </head>
 
 <body>
     <header class = "site-header">
-        <a href = "index.html" class = "header">🍕 Bella Napoli</a>
-        <nav class = "navigation-menu" label = "Huvudmeny">
+        <a href = "index.html" class = "header">
+        <img src = "images/pizza-logo.jpg" alt = "logo to website" width = "200" height = "120">
+        </a>
+        <nav class = "navigation-menu" aria-label = "Main menu">
             <ul>
                 <li><a href = "index.html">Start</a></li>
-                <li><a href = "meny.html">Meny</a></li>
-                <li><a href = "om.html">Om oss</a></li>
-                <li><a href = "kontakt.html">Kontakt</a></li>
+                <li><a href = "meny.html">Menu</a></li>
+                <li><a href = "om.html">About</a></li>
+                <li><a href = "kontakt.html">Contact</a></li>
+                <li><a href = "integritet.html">Privacy Policy</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h1>Välkommen till Bella Napoli</h1>
-            <p>Äkta och klassisk italiensk pizza som är autentiskt bakad med kärlek, 
-               passion och färska råvaror</p>
-            <a href = "meny.html">Se våran meny</a>
+        <section class = "intro">
+            <h1>Welcome to Pizzazone</h1>
+            <p>Authentic and classic italian pizza which is baked with love,passion and fresh groceries.</p>
+            <a href = "meny.html">See our menu</a>
         </section>
 
-        <section>
-
+        <section class = "intro container">
+            <h2>With taste of Italy</h2>
+            <img src = "images/Margherita.jpg" alt = pizza width = "200" height = "120">
+            <p>We bake our pizzas in stone oven with fresh groceries and our own dough.
+               At us you can find everything from classic Margherita to house special
+               Marinara. 
+            </p>
+            <img src = "images/Stoneoven.jpg" alt = "Stoneoven" width = "200" height = "120">
+            <img src = "images/Marinara.jpg" alt = "pizza" width = "200" height = "120">
         </section>
     </main>
 
-    <footer>
-            
+    <footer class = "site-footer">
+        <p>The Pizzazone email: frde2500@student.miun.se <br> <a href = "integritet">Our integrity policy</a></p>
     </footer>
-
-
-    
 </body>
 </html>
