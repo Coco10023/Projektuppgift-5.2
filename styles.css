@@ -20,7 +20,7 @@ body {
     background-color: var(--secondary);
 }
 
-/* Header and navigation */
+/* Header and navigeringsmeny */
 
 .site-header {
     background: var(--primary);
@@ -34,6 +34,8 @@ body {
     font-size: 1.3rem;
     display: block;
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 nav ul {
@@ -174,7 +176,7 @@ img {
     height: auto;
 }
 
-/* Responsiv Design */
+/* Responsiv Webbdesign */
 
 /* Layout för Mobil (Upp till 767px)*/
 @media (max-width: 767px) {
