@@ -36,6 +36,7 @@ body {
     max-width: 100%;
     display: block;
     margin: auto;
+    border-radius: 50%;
 }
 
 nav ul {
@@ -80,6 +81,12 @@ nav a:hover {
 .intro p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+}
+
+.pizza-marinara {
+    position: relative;
+    top: -80px;
+    padding-left: 10px;
 }
 
 /* Knappar */
