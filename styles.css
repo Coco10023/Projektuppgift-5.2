@@ -223,7 +223,7 @@ img {
     }
 
     .menu-grid {
-        grid-template-columns: 2, 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     nav ul {
