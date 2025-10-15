@@ -214,6 +214,10 @@ img {
         width: 100%;
         height: auto;
     }
+
+    .pizza-marinara {
+        margin-top: 75px;
+    }
 }
 
 /* Layout för Surfplatta (768-1024px) */
