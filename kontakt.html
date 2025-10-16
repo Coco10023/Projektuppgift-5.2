@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv"> <!-- Anger språk till svenska -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzazone - Autentisk och klassisk italiensk pizza</title>
-    <link rel = "stylesheet" href = "styles.css">
-    <meta name = "description" content = "Pizzazone - Äkta klassisk italiensk pizza">
+    <meta charset="UTF-8"> <!-- Stöd för svenska tecken -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Gör sidan responsiv för mobila enheter-->
+    <title>Pizzazone - Autentisk och klassisk italiensk pizza</title> <!-- Sidtitel -->
+    <link rel = "stylesheet" href = "styles.css"> <!-- Länkar till min CSS-fil -->
+    <meta name = "description" content = "Pizzazone - Äkta klassisk italiensk pizza"> <!-- Kort beskrivning för sökmotorer (SEO)-->
 </head>
 
 <body>
+    <!-- Sidhuvud med logotyp och navigationsmeny -->
     <header class = "site-header">
         <a href = "index.html" class = "header">
         <img src = "images/pizza-logo.jpg" class = "logo" alt = "logo to website" width = "200" height = "120">
+        <!-- Logotyp som länkar till startsidan -->
         </a>
+        <!-- Huvudmeny för navigation -->
         <nav aria-label = "Main menu">
             <ul>
                 <li><a href = "index.html">Start</a></li>
@@ -23,24 +26,27 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Huvudinnehåll som innehåller kontaktformulär -->
     <main class = "intro container">
         <h1>Kontakta oss</h1>
         <p>Du kan ringa oss, mejla oss eller skicka ett meddelande med formuläret nedan.</p>
 
+        <!-- Formulär för att kontakta restaurangen -->
         <form class = "contact-form">
             <label for = "name">Namn:</label>
             <br>
             <br>
-            <input type = "text" id="name" name="name" required>
+            <input type = "text" id="name" name="name" required> <!-- Fält för namn -->
             <br>
             <br>
             <label for = "email">E-post:</label>
             <br>
             <br>
-            <input type = "email" id = "email" name = "email" required>
+            <input type = "email" id = "email" name = "email" required> <!-- Fält för e-post -->
             <br>
             <br>
-            <label for = "message">Meddelande:</label>
+            <label for = "message">Meddelande:</label> <!-- Meddelandefält -->
             <br>
             <br>
             <textarea id = "message" name = "message" name = "message" rows = "10" cols = "40"></textarea>
@@ -48,14 +54,16 @@
             <br>
             <label>
                 <input type="checkbox" required> Jag godkänner att min information hanteras i enlighet med integritetspolicyn.
-            </label>
+            </label> <!-- GDPR godkännande -->
             <br>
             <br>
+            <!-- Knappar för att skicka eller rensa formuläret -->
             <button type = "submit" class = "btn primary">Skicka meddelande</button>
             <button type = "reset" class = "btn primary">Rensa</button>
         </form>
     </main>
     
+    <!-- Sidfot med kontaktinformation och länk till integritetspolicyn-->
     <footer class = "site">
         <p>&copy; 2025 Pizzazone | E-post: frde2500@student.miun.se</p> <br> 
         <p><a href = "integritet.html">Vår Integritetspolicy</a></p>

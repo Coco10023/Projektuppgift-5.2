@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="sv"> <!-- Anger att sidan är på svenska-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzazone - Autentisk och klassisk italiensk pizza</title>
-    <link rel = "stylesheet" href = "styles.css">
-    <meta name = "description" content = "Pizzazone - Äkta klassisk italiensk pizza">
+    <meta charset="UTF-8"> <!-- Stöd för svenska tecken -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Gör sidan responsiv för mobila enheter-->
+    <title>Pizzazone - Autentisk och klassisk italiensk pizza</title> <!-- Sidtitel -->
+    <link rel = "stylesheet" href = "styles.css"> <!-- Länkar till min CSS-fil -->
+    <meta name = "description" content = "Pizzazone - Äkta klassisk italiensk pizza"> <!-- Kort beskrivning för sökmotorer (SEO)-->
 </head>
 
 <body>
+    <!-- Sidhuvud med logotyp och navigationsmeny -->
     <header class = "site-header">
         <a href = "index.html">
         <img src = "images/pizza-logo.jpg" class = "logo" alt = "loga till hemsida" width = "120" height = "60">
+        <!-- Logotyp som länkar till startsidan -->
         </a>
+        <!-- Huvudmeny för navigation -->
         <nav aria-label = "Huvudmeny">
             <ul>
                 <li><a href = "index.html">Start</a></li>
@@ -24,24 +27,30 @@
         </nav>
     </header>
 
+    <!-- Huvudinnehållet på hemsidan -->
     <main>
+        <!-- Introduktionssektion med huvudrubrik och kort text om vad sidan handlar om -->
         <section class = "intro">
             <h1>Välkommen till restaurangen Pizzazone</h1>
             <p>Autentisk och klassisk italiensk pizza som bakas med kärlek, passion och färska matvaror.</p>
             <a href = "meny.html" class = "btn primary" aria-label = "See vår pizza meny">Se vår meny</a>
+            <!-- Knapp som leder till menyn för pizzorna -->
         </section>
 
+        <!-- Sektion med bilder och mer information om restaurangen -->
         <section class = "intro container">
             <h2>Med smak av Italien</h2>
             <img src = "images/Margherita.jpg" alt = "Pizza Margherita" width = "200" height = "120">
             <p>Vi bakar våra pizzor i stenugn med färska råvaror och vår egen deg. 
                Hos oss hittar du allt från klassisk Margherita till husets special Marinara.
             </p>
+            <!-- Bilder på pizzor och stenugn -->
             <img src = "images/Stoneoven.jpg" alt = "Stenugn" width = "200" height = "120">
             <img src = "images/Marinara.jpg" class = "pizza-marinara" alt = "pizza" width = "200" height = "120">
         </section>
     </main>
 
+    <!-- Sidfot med kontaktinformation och länk till integritetspolicyn-->
     <footer class = "site">
         <p>&copy; 2025 Pizzazone | E-post: frde2500@student.miun.se</p> <br> 
         <p><a href = "integritet.html">Vår integritetspolicy</a></p>
