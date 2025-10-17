@@ -158,10 +158,27 @@ nav a:hover {
     width: 100%;
     padding: 0.5rem;
     margin-top: 0.3rem;
-    border: 1px solid #ccc;
+    border: 1px solid #888;
     border-radius: 5px;
     font-family: inherit;
 }
+
+/* Sätter en tydlig fokusram som funkar överallt */
+:focus-visible {
+    outline: 3px solid #005fcc;  /* Sätter en hög kontrast */
+    outline-offset: 2px;
+}
+
+/* Tangentbordsnavigering och fokus */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: 3px solid #005fcc;
+    outline-offset: 2px;
+}
+
+.btn.primary:focus-visible {
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #005fcc;
+}
+
 
 /* Footer */
 
